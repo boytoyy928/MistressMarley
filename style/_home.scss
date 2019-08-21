@@ -1,0 +1,39 @@
+@import "config";
+
+
+  
+  
+.name {
+    z-index:2;
+    font-size: 30px;
+    text-transform: uppercase;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+  
+.options{
+    background: url(../images/home_stock.jpg) no-repeat center center;
+    background-size:cover;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    align-items:center;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+    a{
+
+        font-size:25px;
+        height:100%;
+        padding-top:50vh;
+        text-transform:uppercase;
+        &:hover{
+            background:rgba(0,0,0,.5);
+            transition:.3s;
+        }
+    }
+ 
+}

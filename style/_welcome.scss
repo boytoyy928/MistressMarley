@@ -1,0 +1,63 @@
+@import "config";
+
+
+nav{
+    margin-top:.5vh;
+    font-size:50px;
+    li{
+        color:red;
+        list-style:none;
+        text-align:center;
+        ul{
+            display:inline;
+            padding:0 3vw;
+        }
+    }
+}
+
+.back{
+    color:red;
+    position:absolute;
+    top:0;
+    left:0;
+    background:grey;
+    height:100vh;
+    width:100vw;
+    z-index:-1;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height:100%;
+    width:80%;
+    margin:3vh auto auto auto;
+    img{
+        width:500px;
+        border:2px solid red;
+    }
+    .text{
+        line-height:1.5em;
+        font-size:20px;
+
+        h1{
+            color:red;
+            text-transform: uppercase;
+            text-align:center;
+            overflow:hidden;
+        }
+        .about{
+            color:white;
+            p{
+                margin:1em;
+            }
+        }
+        h2{
+            text-align:center;
+            overflow:hidden;
+        }
+    }
+}
+
